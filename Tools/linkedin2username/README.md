@@ -9,3 +9,6 @@ Build the image locally \
 
 Run linkedin2username and store the data locally \
 ```docker container run -v /$HOME/output/:/linkedin2username/li2u-output linkedin2username -u [USERNAME] -p [PASSWORD] -c [COMPANY]```
+
+Copy data from linkedin2username to local directory \
+```docker cp [CONTAINERNAME]:/linkedin2username/li2u-output/ .```
