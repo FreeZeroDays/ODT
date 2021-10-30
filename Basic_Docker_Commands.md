@@ -22,3 +22,5 @@ Remove all Docker images \
 
 Named volume for saving data \
 ```docker container run -v [LOCALDIR]:[CONTAINER LOCATION[ [CONTAINER]```
+
+```docker cp [CONTAINERNAME]:/PATH] [LOCAL]```
