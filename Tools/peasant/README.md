@@ -8,4 +8,4 @@ Build the image locally \
 ```docker build -t peasant .```
 
 Run peasant \
-```docker container run peasant harvest -C [CREDS] -cns [COMPANY] -of [OUTPUTFILE.CSV]`
+```docker container run peasant harvest -C [CREDS] -cns [COMPANY] -of [OUTPUTFILE.CSV]```
