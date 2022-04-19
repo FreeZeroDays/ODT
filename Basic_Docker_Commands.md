@@ -5,23 +5,35 @@
 ## Containers
 
 Show all containers (default shows just running) \
-```docker ps -a```
+```bash
+docker ps -a
+```
 
 Stop all Docker containers \
-```docker kill $(docker ps -q)```
+```bash
+docker kill $(docker ps -q)
+```
 
 ## Cleaning Up
 
 Remove all Docker containers \
-```docker rm $(docker ps -a -q)```
+```bash
+docker rm $(docker ps -a -q)
+```
 
 Remove all Docker images \
-```docker rmi $(docker images -q)```
+```bash
+docker rmi $(docker images -q)
+```
 
 ## Persistent Data
 
 Named volume for saving data \
-```docker container run -v [LOCALDIR]:[CONTAINER LOCATION[ [CONTAINER]```
+```bash
+docker container run -v [LOCALDIR]:[CONTAINER LOCATION[ [CONTAINER]
+```
 
 Copy data locally \
-```docker cp [CONTAINERNAME]:/PATH] [LOCAL]```
+```bash
+docker cp [CONTAINERNAME]:/PATH] [LOCAL]
+```
